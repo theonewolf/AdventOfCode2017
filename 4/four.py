@@ -14,7 +14,7 @@ TESTS = [('aa bb cc dd ee', True),
          ('aa bb cc dd aaa', True)]
 
 
-def isvalid(passphrase: int) -> int:
+def isvalid(passphrase: str) -> bool:
     """
     Solves the AOC fourth puzzle.
     """
